@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
     pid=fork();
     if(pid==0)
     {
-        execve("./ass2be", cval, newenviron);
+        execve("./ass2b.2", cval, newenviron);
             perror("Error in execve call...");
     }
 }
