@@ -1,3 +1,10 @@
+#In this assignment we have created phonebook (and we have perform creat,display,insert and modify actions)
+#save the file by extension as .sh (because this file contains linux command)
+#run this file(let this file name be ass1.sh) by following command as
+#chmod +x phonebook.sh
+#./phonebook.sh
+
+
 create()
 {
 	echo "Enter address book name"
